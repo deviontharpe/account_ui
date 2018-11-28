@@ -1,0 +1,224 @@
+:root {
+  font-size: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 95vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(74, 199, 248, 0.8),
+      rgba(74, 199, 248, 0.8)
+    ),
+    url(../images/mounain.jpeg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  font-family: sans-serif;
+}
+
+/* WRAPPER //////////////////////////////////////////////// */
+
+.wrapper {
+  max-width: 125rem;
+  height: 66rem;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 0px 0px 84px -12px rgba(0, 0, 0, 0.75);
+}
+
+/* FORMBOX //////////////////////////////////////////////// */
+
+.formbox {
+  width: 50%;
+  height: 100%;
+}
+
+.formbox__browserbtns {
+  margin: 15px;
+}
+
+.formbox__browserbtns ul li {
+  list-style-type: none;
+  font-size: 0.75rem;
+  padding: 0.5rem;
+  display: inline-block;
+}
+
+.formbox__browserbtns ul li a {
+  padding-left: 0.65rem;
+  padding-right: 0.65rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  width: 10px;
+  border-radius: 50%;
+}
+.formbox__browserbtns ul li #red {
+  background-color: #ec4d43;
+}
+.formbox__browserbtns ul li #yellow {
+  background-color: #fbd141;
+}
+.formbox__browserbtns ul li #green {
+  background-color: #68f238;
+}
+/* INSTRUCTION BOX //////////////////////////////////////////////// */
+.formbox .formbox__instructionbox {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 5rem;
+  width: 40rem;
+  height: 8rem;
+}
+
+.formbox__instructionbox h1 {
+  background-image: linear-gradient(
+    90deg,
+    rgba(55, 144, 212, 1) 0%,
+    rgba(130, 239, 251, 1) 100%
+  );
+  display: inline-block;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.formbox__instructionbox p {
+  color: #c6c6c6;
+}
+
+.formbox .checkbox {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+/* FORMBOX BUTTON BOX //////////////////////////////////////////////// */
+
+.formbox .formbox__btnbox {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 5rem;
+  width: 40rem;
+  height: 8rem;
+}
+
+.formbox .formbox__btnbox ul {
+  list-style-type: none;
+}
+
+.formbox .formbox__btnbox ul li {
+  display: inline-block;
+  padding: 3rem auto;
+}
+
+.formbox .formbox__btnbox ul li a {
+  color: #c6c6c6;
+  margin: 3rem;
+  font-size: 3.5rem;
+}
+
+/* FORMFIELD BOX //////////////////////////////////////////////// */
+.formbox .formbox__formfield {
+  display: flex;
+  margin-left: 3rem;
+  width: 40rem;
+  align-items: center;
+  text-align: center;
+}
+
+.formbox .formbox__formfield input {
+  width: 17rem;
+  height: 2.4rem;
+  outline: none;
+  margin: 0 auto;
+  border: none;
+  border-bottom: 1px solid gray;
+  text-align: center;
+}
+
+.formbox .formbox__formfield input:focus {
+  outline: none;
+}
+
+.formbox .formbox__registerbtn {
+  text-align: center;
+  margin: 5rem;
+}
+.formbox .formbox__registerbtn a {
+  color: white;
+  text-decoration: none;
+  background-color: #4ac7f8cc;
+  padding: 1rem 8rem;
+  border-radius: 20px;
+}
+
+/* MEMBER BOX //////////////////////////////////////////////// */
+
+.memberbox {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(74, 199, 248, 0.8),
+      rgba(74, 199, 248, 0.8)
+    ),
+    url(../images/trees.jpeg);
+
+  background-size: cover;
+  width: 50%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.center {
+  text-align: center;
+  margin: 20rem auto;
+}
+
+.memberbox .memberbox__prompt {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  margin: 5rem;
+  font-weight: 700;
+}
+
+.memberbox .memberbox__prompt p {
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.memberbox .memberbox__login {
+  margin-bottom: 3.5rem;
+}
+
+.memberbox .memberbox__login a {
+  text-decoration: none;
+  color: rgba(130, 239, 251, 1);
+  background: white;
+  padding: 1rem 10rem;
+  font-weight: 900;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 84px -12px rgba(0, 0, 0, 0.75);
+}
+
+.memberbox .memberbox__forgot p,
+.memberbox .memberbox__forgot a {
+  color: white;
+}
